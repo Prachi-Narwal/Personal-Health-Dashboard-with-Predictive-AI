@@ -1,0 +1,47 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+# Model files (optional: keep if model retrained regularly)
+*.pkl
+*.joblib
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode & IDE settings (optional)
+.vscode/
+.idea/
+
+# Logs and output
+*.log
+
+# Streamlit config and temp
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# Data cache (if not needed in repo)
+data/raw/
+data/temp/
+
+# Your trained model folder (if it's too large or dynamic)
+models/
+
+# Uncomment if using Hugging Face Spaces or other deployment tokens
+# hf_*
+
+# Ignore Streamlit sharing secrets (only if using secrets.toml)
+# .streamlit/secrets.toml
